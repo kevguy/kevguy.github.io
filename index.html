@@ -1,1 +1,236 @@
-Hello World
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Simple Responsive Portfolio</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <section class="hero">
+  <div class="content">
+    <div class="header">
+      <h1>Kev Lai's Portfolio</h1>
+    </div>
+  </div>
+</section>
+<section class="about-myself">
+  <div class="content">
+    <h2>Hi !</h2>
+    <p>I'm <span>Kev Lai</span>.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, dicta. Veniam pariatur minima voluptas culpa rem. Suscipit veritatis vel non neque alias, molestiae id incidunt natus ipsum vero, quod aut qui sequi quis laudantium <span>architecto exercitationem</span> recusandae eius. Incidunt velit quasi debitis, commodi vero optio nesciunt perspiciatis quidem quos accusantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius harum minima, ipsum animi. Provident quae hic, perspiciatis accusamus quaerat iure <span>tenetur</span> explicabo dicta quos aspernatur quis, delectus itaque vel.</p>
+  </div>
+</section>
+<section class="experience">
+  <div class="content">
+    <h1>Experience</h1>
+    <ul>
+      <li>
+        <div class="experience-content hidden">
+          <h2>SnagR - UX Developer</h2>
+          <div class="experience-time">Sept 2016 - Now</div>
+          <p>Currently working in this UK-based startup, waiting to cash in, sell out, and bro down.</p>
+        </div>
+      </li>
+      <li>
+        <div class="experience-content hidden">
+          <h2>FoxGlobal - Web Developer</h2>
+          <div class="experience-time">May 2016 - Aug 2016</div>
+          <p>My main job there was trolling everyone but making sure they still felt good about themselves even though they're a bunch of idiots.</p>
+        </div>
+      </li>
+      <li>
+        <div class="experience-content hidden">
+          <h2>ASM Pacific - Intern</h2>
+          <div class="experience-time">May 2014 - Jun 2015</div>
+          <p>Wrote C/C++ everyday. Worked with top-notched engineers, had an awesome boss and learned so much from him.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="skills">
+  <div class="content">
+    <div class="development-wrapper">
+      <h2 class="development-title">Development</h2>
+      <ul class="skills-bar-container">
+        <li>
+          <div class="progressbar-title">
+            <h3>Dragon Taming</h3>
+            <span class="percent" id="html-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="95">
+            <span class="progressbar" id="progress-html"></span>
+          </div>
+        </li>
+        <li>
+          <div class="progressbar-title">
+            <h3>Loud Farting</h3>
+            <span class="percent" id="css-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="85">
+            <span class="progressbar" id="progress-css"></span>
+          </div>
+        </li>
+        <li>
+          <div class="progressbar-title">
+            <h3>Awkward Dancing</h3>
+            <span class="percent" id="javascript-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="80">
+            <span class="progressbar" id="progress-javascript"></span>
+          </div>
+        </li>
+        <li>
+          <div class="progressbar-title">
+            <h3>Imitating How Chester Bennington Sings</h3>
+            <span class="percent" id="php-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="65">
+            <span class="progressbar" id="progress-php"></span>
+          </div>
+        </li>
+        <li>
+          <div class="progressbar-title">
+            <h3>Hiding That Idiot Tsoi Sui Fu's Water Bottle</h3>
+            <span class="percent" id="angular-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="100">
+            <span class="progressbar" id="progress-angular"></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="tools-knowledge-wrapper">
+      <div class="tools-wrapper">
+        <h2 class="title">Tools</h2>
+        <ul class="tools">
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Guitar Pick
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Jazz Hands
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Cold Feet
+          </li>
+        </ul>
+      </div>
+      <div class="knowledge-wrapper">
+        <h2 class="title">Knowledge</h2>
+        <ul class="knowledge">
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Lyrics of Every Linkin Park Song
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Plot of Every Parks and Rec Episode
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            How to Hide Tsoi Sui Fu's Water Bottle (Or His Everything)
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+</section>
+<section class="resume">
+  <div class="content">
+    <a href="#" target"_blank">
+      <div class="btn-resume">
+        <i class="fa fa-download fa-2x" aria-hidden="true"></i>
+        <span>Download my resume<span>
+      </div>
+    </a>
+  </div>
+</section>
+<section class="portfolio">
+  <div class="content">
+    
+    <h1>Some works</h1>
+    
+    <div class="projects">
+      
+      <div class="project">
+        <div class="project-image">
+          <img src="images/02.jpg" alt=""/>
+        </div>
+        <div class="project-title">
+          <h2>Sing Yin Clan</h2>
+        </div>
+        <div class="project-description">
+          <p>I broke the ten-year benchmark and still hung out with my Sing Yin homies to celebrate Mid-Autumn Festival, making C4s and burning candles and stuff. If you're reading this and on that picture, bruh, I love you.</p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-image">
+          <img src="images/03.jpg" alt=""/>
+        </div>
+        <div class="project-title">
+          <h2>Tsoi Sui Fu's Water Bottle Quest</h2>
+        </div>
+        <div class="project-description">
+          <p>I spent almost four years just to find ways to hide that dumbass Tsoi Sui Fu's water bottle to teach him a lesson whenever he talked nonsense, swore with his limited vocabulary, especially when he was being himself, an idiot. After extensive collaboration with other world class experts like John Cheung and Yoyo Wong, and others who were generous enough to contribute their effort, I earned my reputation as a watter bottle guardian, which I'm still wearing like a badge. And between those four years, Sui Fool only almost wanted to beat me up, TWICE.</p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-image">
+          <img src="images/04.jpg" alt=""/>
+        </div>
+        <div class="project-title">
+          <h2>Space Exploration</h2>
+        </div>
+        <div class="project-description">
+          <p>After constantly getting high on cough syrup when I was a kid, I suddenly had a vision of how people should live when they lived in space. So I did what other drug addicts with a paint brush did, made it into a giant piece of art crap. I had a hunch and scored the world champion and artist merit of NASA's Space Settlement Design Contest in 2009 and managed to put my name on every newspaper in Hong Kong for one day. But what I'm mostly proud of is Yahoo! showed my name on their home page when people still searched things on Yahoo! You don't get to do this anymore guys.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact">
+  <div class="content">
+    <ul class="socials">
+      <li class="social">
+        <a href="#" target="_blank" class="email">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="social">
+        <a href="#" target="_blank" class="twitter">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="social">
+        <a href="#" target="_blank" class="linkedin">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="social">
+        <a href="#" target="_blank" class="codepen">
+          <i class="fa fa-codepen" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</section>
+<section class="footer">
+  <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by Kev</p>
+</section>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
